@@ -1,0 +1,88 @@
+//typography
+.h1 {
+    font-size: $f30;
+    color: $white;
+    font-family: $sgui;
+    font-weight: 700;
+}
+
+.h2 {
+    color: $h2color;
+    text-transform: uppercase;
+    font-size: $f36;
+    font-weight: 400;
+    font-family: $sgui;
+}
+
+.h3 {
+    color: $h2color;
+    font-size: $f16;
+    font-family: $sgui;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.h4{
+    font-family: $sgui;
+    font-size: $f16;
+    font-weight: 400;
+    color: #3d5089;
+}
+
+.p{
+    font-size: $f12;
+    color: $pcolor;    
+    font-family: $sgui;
+    font-weight: 400;
+}
+
+.p-main{
+    font-size: $f14;
+    color: $pcolor;    
+    font-family: $sgui;
+    font-weight: 400;
+    max-width: 77rem;
+    margin: 0 auto;
+}
+
+.p-footer{
+    font-size: $f10;
+    color: $pcolor;    
+    font-family: $sgui;
+    font-weight: 400;
+    max-width: 62rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    color: $acolor;
+    font-family: $sgui;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: $f16;
+    transition: all ease-in 140ms;
+
+    &:hover, &:active, &:focus {
+        //opacity: .8;
+        transition: all ease-in 140ms;
+    }
+}
+
+// a:focus, a:hover {
+//     color: #23527c;
+//     text-decoration: none;
+// }
+
+
+
+.bold {
+    font-weight: 700;
+    font-family: $sgui-bold;
+    // color: $black;
+}
+  
+.italic {
+    font-style: italic;
+    letter-spacing: -0.1rem;
+}
